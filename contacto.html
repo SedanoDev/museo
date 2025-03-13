@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Museo del Prado</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/contacto.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-logo"><a href="index.html">MUSEO DEL PRADO</a></div>
+        <div class="nav-menu-icon"><i class="fa-solid fa-bars fa-1x"></i></div>
+        <div class="nav-links ocultar">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="index.html#exposiciones">Exposiciones</a></li>
+                <li><a href="index.html#visita">Visita</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="contacto">
+        <h2>Contacto</h2>
+        <div class="contacto-contenedor">
+            <div class="contacto-info">
+                <h3>Información de Contacto</h3>
+                <p><i class="fa-solid fa-map-marker-alt"></i> Paseo del Prado s/n, 28014 Madrid, España</p>
+                <p><i class="fa-solid fa-phone"></i> <a href="tel:+34913302800">+34 913 302 800</a></p>
+                <p><i class="fa-solid fa-envelope"></i> <a href="mailto:info@museodelprado.es">info@museodelprado.es</a></p>
+                <div class="social-icono">
+                    <a href="https://www.facebook.com/museonacionaldelprado" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/museodelprado" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/museoprado" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/user/museodelprado" target="_blank"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="contacto-formulario">
+                <h3>Envíanos un Mensaje</h3>
+                <form>
+                    <input type="text" placeholder="Nombre" required>
+                    <input type="email" placeholder="Correo Electrónico" required>
+                    <textarea placeholder="Tu Mensaje" required></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-contenedor">
+       
+            <div class="footer-seccion">
+                <h3>Enlaces Útiles</h3>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="index.html#exposiciones">Exposiciones</a></li>
+                    <li><a href="index.html#visita">Planifica tu Visita</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer-seccion">
+                <h3>Museo Nacional del Prado</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d759.5285214119253!2d-3.6929106796164253!3d40.4134838437153!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd42289d66d8a2ed%3A0x1094f07d93ad885a!2sMuseo%20Nacional%20del%20Prado!5e1!3m2!1ses!2ses!4v1741745413302!5m2!1ses!2ses" width="100%" height="200" style="border:0; max-width: 300px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <div class="footer-seccion">
+                <h3>Contacto</h3>
+                <p><a href="mailto:museo.prado@museodelprado.es">museo.prado@museodelprado.es</a><br>+34 913 302 800</p>
+                <div class="social-icono">
+                    <a href="https://www.facebook.com/museonacionaldelprado" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/museodelprado" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/museoprado" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/user/museodelprado" target="_blank"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-seccion newsletter">
+                <h3>Suscríbete</h3>
+                <p>Recibe noticias y actualizaciones del museo.</p>
+                <form>
+                    <input type="email" placeholder="Tu correo electrónico" required>
+                    <button type="submit">Suscribirse</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p>&copy; 2025 Museo del Prado. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelector('.nav-menu-icon').addEventListener('click', () =>
+            document.querySelector('.nav-links').classList.toggle('ocultar')
+        );
+    </script>
+</body>
+</html>
