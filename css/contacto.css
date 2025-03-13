@@ -1,0 +1,142 @@
+/* Estilos personalizados para la página de contacto */
+.contacto {
+    background-image: url(../images/El-lavatorio.jpeg);
+    margin-top: 80px;
+    padding: 80px 30px;
+    min-height: calc(100vh - 80px);
+    background-size: cover;
+}
+
+.contacto h2 {
+    font-family: 'Georgia', serif;
+    font-size: 36px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.contacto-contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+}
+
+.contacto-info {
+    flex: 1;
+    min-width: 300px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.contacto-info h3 {
+    font-family: 'Georgia', serif;
+    font-size: 24px;
+    color: #d4a373;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #d4a373;
+    padding-bottom: 10px;
+}
+
+.contacto-info p {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    color: #4a3c31;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+.contacto-info a {
+    color: #d4a373;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.contacto-info a:hover {
+    color: #b38b5d;
+    text-decoration: underline;
+}
+
+.contacto-formulario {
+    flex: 1;
+    min-width: 300px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.contacto-formulario h3 {
+    font-family: 'Georgia', serif;
+    font-size: 24px;
+    color: #d4a373;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #d4a373;
+    padding-bottom: 10px;
+}
+
+.contacto-formulario form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contacto-formulario input,
+.contacto-formulario textarea {
+    padding: 12px;
+    border: 2px solid #e6d9c6;
+    border-radius: 6px;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    background: #fafafa;
+    transition: border-color 0.3s;
+}
+
+.contacto-formulario input:focus,
+.contacto-formulario textarea:focus {
+    border-color: #d4a373;
+    outline: none;
+}
+
+.contacto-formulario textarea {
+    min-height: 150px;
+    resize: vertical;
+}
+
+.contacto-formulario button {
+    padding: 12px;
+    background: #d4a373;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-family: 'Georgia', serif;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.contacto-formulario button:hover {
+    background: #b38b5d;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .contacto-contenedor {
+        flex-direction: column;
+        padding: 0 20px;
+    }
+
+    .contacto {
+        background-image: url(../images/El-lavatorio.jpeg);
+        background-size: cover;
+        margin-top: 60px;
+        padding: 80px 30px;
+        min-height: calc(100vh - 60px);
+    }
+}
