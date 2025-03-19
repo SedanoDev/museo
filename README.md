@@ -24,5 +24,3 @@ Este repositorio contiene el código fuente de una página web dedicada a las ex
 
 ## 📜 Licencia
 Este proyecto se distribuye bajo la licencia MIT. Consulta el archivo `LICENSE` para más detalles.
-
-# museo
